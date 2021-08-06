@@ -43,7 +43,10 @@ Users should be able to:
 
 ### What I learned
 
-Have not completed.
+I practiced using flex grow. On the "Why Us" section, due to the list, this section was taller by default than the "Monthly Subscription" one.
+
+So for example just adding a margin-top to the "Sign Up" button wouldn't make it aligned at the bottom with the list on the "Why Us" section.
+I placed a flex-grow: 1; on the text above the button which made the button go all the way to the button so it aligned good. Alignment is very important in design so I took it seriously.
 
 ## Author
 
