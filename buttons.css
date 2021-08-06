@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-size: var(--body);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  font-size: var(--button);
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 15px;

@@ -100,3 +100,25 @@
   margin-top: 26px;
   width: 100%;
 }
+
+@media (max-width: 635px) {
+  .price-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  #price-card-header,
+  #price-card-subscription,
+  #price-card-why {
+    grid-column: normal;
+  }
+
+  .price-card-header-subtitle {
+    color: var(--green);
+    margin: 20px 0;
+  }
+
+  .price-card-section {
+    padding: 30px;
+  }
+}
