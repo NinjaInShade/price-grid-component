@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/social-proof-section-with-not-css-selector-css-custom-vars-Gq4f84-af) -->
-<!-- - Live Site URL: (https://lm-social-proof-section.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/social-proof-section-with-not-css-selector-css-custom-vars-Gq4f84-af)
+- Live Site URL: (https://lm-price-grid-component.netlify.app/)
 
 ## My process
 
