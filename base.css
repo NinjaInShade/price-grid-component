@@ -1,0 +1,91 @@
+* {
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+  /* Primary */
+  --cyan: #2ab3b1;
+  --green: #c0df33;
+
+  /* Neutral */
+  --gray: #9aa7be;
+  --light-gray: #e6eff5;
+
+  /* Typography */
+  --h2: 1.5rem;
+  --h2-letter-spacing: -0.3px;
+
+  --h3: 1.125rem;
+  --h3-letter-spacing: -0.22px;
+
+  --emphasised: 2rem;
+  --emphasised-letter-spacing: -0.4px;
+
+  --body: 1rem;
+  --body-line-height: 26px;
+  --body-letter-spacing: -0.2px;
+
+  --body-s: 0.875rem;
+  --body-s-line-height: 20px;
+  --body-s-letter-spacing: -0.17px;
+
+  --container-max-width: 1100px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray);
+  min-height: 100vh;
+  padding: 75px 30px;
+}
+
+h2 {
+  font-size: var(--h2);
+  letter-spacing: var(--h2-letter-spacing);
+}
+
+h3 {
+  font-size: var(--h3);
+  letter-spacing: var(--h3-letter-spacing);
+}
+
+.body-text {
+  font-size: var(--body);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+}
+
+.body-s-text {
+  font-size: var(--body-s);
+  line-height: var(--body-s-line-height);
+  letter-spacing: var(--body-s-letter-spacing);
+}
+
+.ephasised-text {
+  font-size: var(--emphasised);
+  letter-spacing: var(--emphasised-letter-spacing);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 986px) {
+  :root {
+    --h1: 32px;
+    --h1-line-height: 32px;
+    --h1-letter-spacing: -1.14px;
+  }
+}
