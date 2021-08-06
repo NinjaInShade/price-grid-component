@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/social-proof-section-with-not-css-selector-css-custom-vars-Gq4f84-af)
+- Solution URL: (https://www.frontendmentor.io/solutions/price-grid-component-with-css-vars-D95RbnWfj)
 - Live Site URL: (https://lm-price-grid-component.netlify.app/)
 
 ## My process
