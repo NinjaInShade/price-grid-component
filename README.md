@@ -38,6 +38,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties/vars
+- CSS grid
 - Desktop-first workflow
 
 ### What I learned
