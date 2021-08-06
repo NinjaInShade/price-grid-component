@@ -71,7 +71,7 @@ h3 {
   letter-spacing: var(--body-s-letter-spacing);
 }
 
-.ephasised-text {
+.emphasised-text {
   font-size: var(--emphasised);
   letter-spacing: var(--emphasised-letter-spacing);
 }

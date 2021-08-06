@@ -1,7 +1,7 @@
 .price-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
   -moz-box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
   box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
@@ -17,12 +17,79 @@
 }
 
 #price-card-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   background: var(--cyan);
   grid-column: 1 / 2;
 }
 
 #price-card-why {
+  position: relative;
   background: var(--cyan);
   grid-column: 2 / 3;
-  opacity: 15%;
+}
+
+#price-card-why::before {
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.15);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Z index fix to hover select text in browser, since psuedo element messed up z-index */
+#price-card-why > div {
+  position: relative;
+  z-index: 1;
+}
+
+.price-card-title {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+.price-card-subtitle {
+  color: #fff;
+  font-weight: 700;
+}
+
+.price-card-header-subtitle {
+  color: var(--green);
+  margin: 25px 0 12px 0;
+}
+
+.price-card-description {
+  color: var(--gray);
+}
+
+.price-card-why-list {
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 18px;
+}
+
+.price-card-why-list-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.price-card-money {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  margin: 18px 0 5px 0;
+}
+
+.price-card-money span {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.price-card-money-description {
+  color: #fff;
+  flex-grow: 1;
 }

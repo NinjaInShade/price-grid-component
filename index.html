@@ -6,6 +6,7 @@
     <meta name="description" content="Price grid component" />
     <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="buttons.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
@@ -17,9 +18,35 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <main class="container">
       <article class="price-card">
-        <header class="price-card-section" id="price-card-header"></header>
-        <div class="price-card-section" id="price-card-subscription"></div>
-        <div class="pric-card-section" id="price-card-why"></div>
+        <header class="price-card-section" id="price-card-header">
+          <h2 class="price-card-title">Join our community</h2>
+          <h3 class="price-card-subtitle price-card-header-subtitle">30-day, hassle-free money back guarantee</h3>
+          <p class="body-text price-card-description">
+            Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who
+            are serious about honing their skills.
+          </p>
+        </header>
+        <div class="price-card-section" id="price-card-subscription">
+          <h3 class="price-card-subtitle">Monthly Subscription</h3>
+          <b class="price-card-money emphasised-text">$29 <span class="body-text">per month</span></b>
+          <p class="body-text price-card-money-description">Full access for less than $1 a day</p>
+          <a href="./index.html" class="btn btn-primary">Sign up</a>
+          </div>
+        </div>
+        <div class="price-card-section" id="price-card-why">
+          <div>
+            <h3 class="price-card-subtitle">Why Us</h3>
+            <ul class="body-s-text price-card-why-list">
+              <li class="price-card-why-list-item">Tutorials by industry experts</li>
+              <li class="price-card-why-list-item">Peer & expert code review</li>
+              <li class="price-card-why-list-item">Coding exercises</li>
+              <li class="price-card-why-list-item">Access to our GitHub repos</li>
+              <li class="price-card-why-list-item">Community forum</li>
+              <li class="price-card-why-list-item">Flashcard decks</li>
+              <li class="price-card-why-list-item">New videos every week</li>
+            </ul>
+          </div>
+        </div>
       </article>
     </main>
   </body>
